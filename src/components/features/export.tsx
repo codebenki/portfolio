@@ -1,1 +1,2 @@
-export { Navbar as default } from './navbar' 
+export { Navbar } from './navbar'
+export { Home } from './home'
