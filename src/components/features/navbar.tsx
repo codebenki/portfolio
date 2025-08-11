@@ -6,7 +6,6 @@ import {
 } from "@/components/ui/menubar";
 
 export function Navbar() {
-  // State to handle mobile menu visibility
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const scrollToSection = (sectionId: string) => {
@@ -24,7 +23,7 @@ export function Navbar() {
 
   const sections = [
     "home",
-    "profile",
+    "projects",
     "experience",
     "achievements",
     "education",
@@ -34,15 +33,12 @@ export function Navbar() {
 
   return (
     <Menubar className="sticky top-0 z-10 flex items-center justify-between p-4 md:rounded-b-4xl rounded-b-md rounded-t-none">
-      {/* Logo or Brand */}
       <div className="px-4 font-extrabold text-xl bg-gradient-to-r from-[#4C0D73] to-[#A946E9] bg-clip-text text-transparent">
         KP
       </div>
-
-      {/* Hamburger Icon on Small Screens */}
       <div
         className="md:hidden cursor-pointer"
-        onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} // Toggle menu
+        onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
       >
         ☰
       </div>

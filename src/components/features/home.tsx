@@ -4,10 +4,10 @@ export function Home() {
 
     return (
         <>
-            <div id="home" className="text-white h-screen w-full flex flex-col justify-center p-10">
+            <div id="home" className="text-white h-screen w-full flex flex-col justify-center p-10 pt-0">
                 <div className="my-12 flex flex-col gap-2">
                     <div className="text-5xl font-bold">Kevin Payos</div>
-                    <div className="text-3xl font-medium">Software Developer</div>
+                    <div className="text-3xl font-medium">Web Developer</div>
                 </div>
                 <div className="relative w-full overflow-hidden min-h-32">
                     <TypeAnimation sequence={[
