@@ -26,8 +26,6 @@ export function Navbar() {
     "home",
     "projects",
     "experience",
-    "achievements",
-    "education",
     "resume",
     "contact",
   ];

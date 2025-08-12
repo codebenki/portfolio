@@ -13,6 +13,14 @@ export function Experience() {
             technologies: ['PHP', 'Laravel', 'jQuery']
         },
         {
+            title: "Full Stack Developer",
+            company: "Capstone Project",
+            place: "Tacloban City",
+            duration: "Apr 2024 – Dec 2024",
+            description: "Solely designed and developed a full-featured event booking website for a local events venue. Implemented user registration, booking management, real-time availability tracking, and integrated online payment processing using the Paymongo API.",
+            technologies: ['Laravel', 'jQuery', 'Tailwind CSS', 'Paymongo API', 'MySQL']
+        },
+        {
             title: "Payroll Encoder",
             company: "PopCom Office – Old Capitol",
             place: "Tacloban City",
@@ -23,11 +31,11 @@ export function Experience() {
     ]
 
     return (
-        <div id="experience" className="px-4 py-8 flex flex-col items-center gap-10 scroll-mt-10">
+        <div id="experience" className="min-h-screen px-4 py-8 flex flex-col items-center gap-10 scroll-mt-10">
             <FloatSection>
                 <div className="text-4xl text-center font-semibold text-white flex flex-col gap-2">
                     <div>Experience</div>
-                    <div className="text-xl">
+                    <div className="text-xl text-gray-300">
                         My Journey as a Web Developer, building innovative solutions.
                     </div>
                 </div>
@@ -36,7 +44,7 @@ export function Experience() {
             <div className="flex flex-col gap-6 w-full">
                 {experience.map((item, i) => (
                     <FloatSection key={i}>
-                        <Card className="w-full max-w-2xl mx-auto">
+                        <Card className="w-full max-w-3xl mx-auto">
                             <CardHeader>
                                 <CardTitle className="text-[#421064] font-bold text-2xl">
                                     {item.title}

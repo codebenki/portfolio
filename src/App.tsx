@@ -1,5 +1,5 @@
 import './App.css'
-import { Navbar, Home, Projects, Experience } from './components/features/export'
+import { Navbar, Home, Projects, Experience, Education } from './components/features/export'
 
 function App() {
 
@@ -8,7 +8,10 @@ function App() {
       <Navbar />
       <Home />
       <Projects />
-      <Experience />
+      <div className='flex justify-center flex-col md:flex-row'>
+        <Experience />
+        <Education />
+      </div>
     </>
   )
 }
