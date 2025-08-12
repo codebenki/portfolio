@@ -1,5 +1,5 @@
 import './App.css'
-import { Navbar, Home, Projects, Experience, Education } from './components/features/export'
+import { Navbar, Home, Projects, Experience, Education, Resume } from './components/features/export'
 
 function App() {
 
@@ -12,6 +12,7 @@ function App() {
         <Experience />
         <Education />
       </div>
+      <Resume />
     </>
   )
 }

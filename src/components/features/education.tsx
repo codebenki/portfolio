@@ -27,7 +27,7 @@ export function Education() {
                     <div className="text-4xl text-center font-semibold text-white flex flex-col gap-2">
                         <div>Education</div>
                         <div className="text-lg text-gray-300">
-                            My Academic background and learning journey in technology and software development.
+                            My educational and personal journey in technology and software development.
                         </div>
                     </div>
                 </FloatSection>
