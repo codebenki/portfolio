@@ -4,6 +4,7 @@ import {
   MenubarMenu,
   MenubarTrigger,
 } from "@/components/ui/menubar";
+import { Menu } from "lucide-react";
 
 export function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -40,7 +41,7 @@ export function Navbar() {
         className="md:hidden cursor-pointer"
         onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
       >
-        ☰
+        <Menu />
       </div>
 
       <div className="hidden md:flex gap-4 px-4 text-[#4C0D73]">

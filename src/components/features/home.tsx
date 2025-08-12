@@ -4,7 +4,7 @@ export function Home() {
 
     return (
         <>
-            <div id="home" className="text-white h-screen w-full flex flex-col justify-center p-10 pt-0">
+            <div id="home" className="text-white min-h-screen w-full flex flex-col justify-center p-10 pt-16">
                 <div className="my-12 flex flex-col gap-2">
                     <div className="text-5xl font-bold">Kevin Payos</div>
                     <div className="text-3xl font-medium">Web Developer</div>

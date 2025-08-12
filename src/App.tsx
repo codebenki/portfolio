@@ -1,5 +1,5 @@
 import './App.css'
-import { Navbar, Home, Projects } from './components/features/export'
+import { Navbar, Home, Projects, Experience } from './components/features/export'
 
 function App() {
 
@@ -8,6 +8,7 @@ function App() {
       <Navbar />
       <Home />
       <Projects />
+      <Experience />
     </>
   )
 }
