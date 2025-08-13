@@ -1,0 +1,7 @@
+export { Navbar } from './navbar'
+export { Home } from './home'
+export { Projects } from './projects'
+export { Experience } from './experience'
+export { Education } from './education'
+export { Resume } from './resume'
+export { Contact } from './contact'
