@@ -1,5 +1,5 @@
 import './App.css'
-import { Navbar, Home, Projects, Experience, Education, Resume, Contact } from './components/features/export'
+import { Navbar, Home, Experience, Education, Resume, Contact } from './components/features/export'
 
 function App() {
 
