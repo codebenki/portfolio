@@ -24,7 +24,7 @@ export function Navbar() {
 
   const sections = [
     "home",
-    "projects",
+    // "projects",
     "experience",
     "resume",
     "contact",
