@@ -47,7 +47,7 @@ export function Contact() {
                                 </span>
                             </CardDescription>
                         </CardHeader>
-                        <CardContent className="text-gray-600 text-md flex gap-6 sm:flex-row flex-col">
+                        <CardContent className="text-gray-600 text-md flex gap-6 lg:flex-row flex-col">
                             {contact.map((item, i) => (
                                 <a href={item.link}>
                                     <div key={i} className='flex items-center gap-4'>
