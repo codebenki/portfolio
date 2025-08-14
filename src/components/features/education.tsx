@@ -7,6 +7,7 @@ import {
     CardContent,
     CardHeader
 } from '@/components/ui/card'
+import picture from '../../assets/images/me_fan_pic2.png'
 
 export function Education() {
     const experience = [
@@ -70,6 +71,13 @@ export function Education() {
                             </Card>
                         </FloatSection>
                     ))}
+                    <FloatSection>
+                        <div className="flex justify-center items-center">
+                            <div className="max-h-7xl h-auto w-96 rounded-full overflow-hidden border-4 border-violet-800 shadow-lg">
+                                <img src={picture} alt="picture" />
+                            </div>
+                        </div>
+                    </FloatSection>
                 </div>
             </div>
         </>
