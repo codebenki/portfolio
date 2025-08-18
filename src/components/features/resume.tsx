@@ -93,7 +93,7 @@ export function Resume() {
                                 </CardDescription>
                             </CardHeader>
                             <CardContent className="flex flex-col gap-6">
-                                <a href="/Kevin_Payos_Resume.pdf" download>
+                                <a href="/Kevin_Payos_Resume.pdf" download="Kevin_Payos_Resume.pdf">
                                     <Button className="text-white bg-violet-800 w-full">
                                         <Download className="mr-2 h-5 w-5" />
                                         Download
