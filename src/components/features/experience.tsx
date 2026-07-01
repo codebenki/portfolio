@@ -20,7 +20,7 @@ export function Experience() {
         "Developed a web-based indexing and monitoring system for server health, uptime, and operational metrics for deployed systems. ",
         "Delivered remote technical support and troubleshooting using AnyDesk.",
       ],
-      technologies: ["Vue.js, Supabase, Vercel, Tailscale, Docker"],
+      technologies: ["Vue.js", "Supabase", "Vercel", "Tailscale", "Docker"],
     },
     {
       title: "IT Intern",

@@ -11,8 +11,8 @@ import { FloatSection } from "./floatsection";
 
 export function Resume() {
   const skills = {
-    frontend: ["React", "jQuery", "Tailwind CSS", "HTML/CSS"],
-    backend: ["PHP", "Laravel"],
+    frontend: ["React", "Vue.js", "Tailwind CSS", "HTML/CSS"],
+    backend: ["PHP", "Laravel", "Python"],
     database: ["MySQL", "PostgreSQL"],
     tools: ["Git", "Postman", "VS Code"],
   };
